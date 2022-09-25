@@ -677,14 +677,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-tit491jolu {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-tit491jolu nav.navbar {
-  position: fixed;
+.cid-tit491jolu .navbar-dropdown {
+  position: relative !important;
 }
 .cid-tit491jolu .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1008,7 +1002,6 @@ a {
 }
 .cid-tit491jolu .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-tit491jolu a.nav-link {
   display: flex;
@@ -1038,128 +1031,57 @@ a {
   }
 }
 .cid-tita4TfMyh {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #000000;
+}
+.cid-titq6H8lHD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-titdQjVdYA {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #fafafa;
+@media (max-width: 991px) {
+  .cid-titq6H8lHD .image-wrapper {
+    margin-bottom: 1rem;
+  }
 }
-.cid-titdQjVdYA .carousel {
-  height: 800px;
-}
-.cid-titdQjVdYA .carousel img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.cid-titdQjVdYA .carousel-item,
-.cid-titdQjVdYA .carousel-inner {
-  height: 100%;
-}
-.cid-titdQjVdYA .carousel-caption {
-  bottom: 40px;
-}
-.cid-titdQjVdYA .mobi-mbri-arrow-next {
-  margin-left: 5px;
-}
-.cid-titdQjVdYA .mobi-mbri-arrow-prev {
-  margin-right: 5px;
-}
-.cid-titdQjVdYA .carousel-control:hover {
-  background: #1b1b1b;
-  color: #fff;
-  opacity: 1;
-}
-.cid-titdQjVdYA .item-wrapper {
+.cid-titq6H8lHD img {
   width: 100%;
 }
-@media (max-width: 767px) {
-  .cid-titdQjVdYA .container .carousel-control {
-    margin-bottom: 0;
-  }
-  .cid-titdQjVdYA .content-slider-wrap {
-    width: 100% !important;
+@media (min-width: 992px) {
+  .cid-titq6H8lHD .text-wrapper {
+    padding: 2rem;
   }
 }
-.cid-titdQjVdYA .container .carousel-indicators {
-  margin-bottom: 3px;
+.cid-titq7pLzmX {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
 }
-.cid-titdQjVdYA .carousel-control {
-  top: 50%;
-  width: 60px;
-  height: 60px;
-  margin-top: -1.5rem;
-  font-size: 22px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  transition: all 0.3s;
-}
-.cid-titdQjVdYA .carousel-control.carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
-}
-.cid-titdQjVdYA .carousel-control.carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
-}
-@media (max-width: 767px) {
-  .cid-titdQjVdYA .carousel-control {
-    top: auto;
-    bottom: 1rem;
+@media (max-width: 991px) {
+  .cid-titq7pLzmX .image-wrapper {
+    margin-bottom: 1rem;
   }
 }
-.cid-titdQjVdYA .carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 1.5rem !important;
+.cid-titq7pLzmX .row {
+  flex-direction: row-reverse;
 }
-.cid-titdQjVdYA .carousel-indicators li {
-  max-width: 15px;
-  height: 15px;
-  width: 15px;
-  max-height: 15px;
-  margin: 3px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  opacity: 0.5;
-  transition: all 0.3s;
-}
-.cid-titdQjVdYA .carousel-indicators li.active,
-.cid-titdQjVdYA .carousel-indicators li:hover {
-  opacity: 0.9;
-}
-.cid-titdQjVdYA .carousel-indicators li::after,
-.cid-titdQjVdYA .carousel-indicators li::before {
-  content: none;
-}
-.cid-titdQjVdYA .carousel-indicators.ie-fix {
-  left: 50%;
-  display: block;
-  width: 60%;
-  margin-left: -30%;
-  text-align: center;
-}
-@media (max-width: 768px) {
-  .cid-titdQjVdYA .carousel-indicators {
-    display: none !important;
-  }
-}
-.cid-titdQjVdYA H5 {
-  text-align: left;
-}
-.cid-tit491jolu {
-  z-index: 1000;
+.cid-titq7pLzmX img {
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
-.cid-tit491jolu nav.navbar {
-  position: fixed;
+@media (min-width: 992px) {
+  .cid-titq7pLzmX .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-titq0XurbN {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
+  overflow: hidden;
+}
+.cid-tit491jolu .navbar-dropdown {
+  position: relative !important;
 }
 .cid-tit491jolu .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1483,7 +1405,6 @@ a {
 }
 .cid-tit491jolu .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-tit491jolu a.nav-link {
   display: flex;
@@ -1527,4 +1448,10 @@ a {
   .cid-tit7qMKIXP .text-wrapper {
     padding: 2rem;
   }
+}
+.cid-titq0XurbN {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
+  overflow: hidden;
 }
